@@ -30,7 +30,7 @@ In contrast to  modern NER corpora, **NEReus** annotates the names of gods and o
 
 ### LANGUAGE
 
-The category **LANGUAGE** includes terms that refers both to languages and dialects of any language.
+The category **LANGUAGE** includes terms that denote both languages and the dialects of any language.
 
 ### PLACE
 
