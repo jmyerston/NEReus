@@ -13,24 +13,24 @@ NEReus is an annotated corpus of Named Entities in ancient Greek text, developed
 
 ## Schema
 
-The annotation schema of NEReus consists the labels **GROUP, GOD, LANGUAGE, PLACE, PERSON** whose description is the following:
+The annotation schema of NEReus consists of the labels **GROUP, GOD, LANGUAGE, PLACE, PERSON** whose description is the following:
 
 ### GROUP
 
 The label **GROUP**  refers to adjective which denote:
 
-* Ethnic groups like Greeks, Egyptians, Persians, etc.  **GROUP** contains then *ethnonyms* both in the singular and plural in regular and substantive form as in 'Egyptian' and the 'Egyptians'. 
-* *Demonyms*, this is, terms used to denote the natives or inhabitants of a particular city, city-state, or sub-division of city-state like *demos* or *tribes* are also labeled as **GROUP**.  
+* Ethnic groups like Greeks, Egyptians, Persians, etc.  **GROUP** contains then *ethnonyms* both in the singular and in the plural.
+* *Demonyms*, this is, terms used to denote the natives or inhabitants of a particular city, city-state, or sub-division of a city-state like the *demos* or *tribes* are also labeled as **GROUP**.  
 * Other types of social groups, like philosophical schools, religious organizations like *thiasos*, temple personnel, groups of doctors, and similar are also labeled as **GROUP**.
 * **<u>Exceptions</u>** are substantivized adjectives in the singular that function as a proper noun like in "the Phoenician". Such cases are labeled as **PERSON** , including the article as in ὁ Φοῖνιξ.
 
 ### GOD
 
-In contrast to annotating of modern corpora, **NEReus** annotate the names of gods and other supernatural beings. This is so because people in the ancient world perceived a multitude of divine beings as real things to which they related in various forms. One important form of relating to the gods was kinship, this means, imagined divine ancestry which was often used to create social bonds. 
+In contrast to  modern NER corpora, **NEReus** annotates the names of gods and other supernatural beings. This is so because people in the ancient world perceived a multitude of divine beings as real things to which they related in various forms. One important form of relating to the gods was kinship, this means, imagined divine ancestry which was often used to create social bonds. 
 
 ### LANGUAGE
 
-The category **LANGUAGE** includes terms that refers both to languages and dialects of any languages.
+The category **LANGUAGE** includes terms that refers both to languages and dialects of any language.
 
 ### PLACE
 
