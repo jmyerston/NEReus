@@ -6,12 +6,25 @@
 
 NEReus is an annotated corpus of Named Entities in ancient Greek text, developed for the training of neural models. At this point the corpus is an alpha stage and consist only of the annotated version of Herodotus's Histories Book III, which has been revised and has reached the golden standard landmark.  The project aims to to provide NER annotations of the following text in ancient Greek:
 
-* Hesiod's *Theogony*
+- [x] Hesiod's *Theogony*
 
-* Herodotus' *Histories*, books I, II, III
-* Diogenes  Laertius' *Lives of Eminent Philosophers*, books I, III, V, VII
-* Selected passages from Pausanias' *Description of Greece*
-* Selected passages from Strabo's *Geography*
+* Herodotus' *Histories*
+
+  - [ ] Book I
+
+  - [ ] Book II
+  - [x] Book III
+
+* Diogenes  Laertius' *Lives of Eminent Philosophers*
+
+  * [ ] Book I
+  * [ ] Book III
+  * [ ] Book V
+  * [ ] Book  VII
+
+* [ ] Selected passages from Pausanias' *Description of Greece*
+
+* [ ]  Selected passages from Strabo's *Geography*
 
 ## Schema
 
