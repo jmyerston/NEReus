@@ -49,7 +49,7 @@ The category **LANGUAGE** includes terms that denote both languages and the dial
 
 ### GPE and LOC
 
-As **GPE** are annotated the names of any cities, nations, empires, city-states, while the label **LOC** are used to annotate mountains, caves, bodies of water, and any location that is not a city, nation, or empire. Note that *ethnonyms*, like *Athenians*, that are used to denote places are annotated as **NORP** to avoid inconsistencies in the annotation schema. For instance, in a sentence like "The messenger went to the Egyptians",  Egyptians is labeled as **NORP** and not **GPE**, although 'Egyptians' here denotes Egypt.
+As **GPE** are annotated the names of any city, nation, empire, city-state, while the label **LOC** is used to annotate mountains, caves, bodies of water, and any location that is not a city, nation, or empire. Note that *ethnonyms*, like *Athenians*, that are sometimes used to denote places are annotated as **NORP** to avoid inconsistencies in the annotation schema. For instance, in a sentence like "The messenger went to the Egyptians",  Egyptians is labeled as **NORP** and not **GPE**, although 'Egyptians' here denotes Egypt.
 
 ### PERSON
 
