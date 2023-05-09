@@ -28,15 +28,15 @@ NEReus is an annotated corpus of Named Entities in ancient Greek text, developed
 
 ## Schema
 
-The annotation schema of NEReus consists of the labels **GROUP, GOD, LANGUAGE, PLACE, PERSON** whose description is the following:
+The annotation schema of NEReus consists of the labels **NORP, GOD, GPE, LANGUAGE, LOC, PERSON** whose description is the following:
 
-### GROUP
+### NORP
 
-The label **GROUP**  refers to adjective which denote:
+The label **NORP**  refers to adjective which denote:
 
-* Ethnic groups like Greeks, Egyptians, Persians, etc.  **GROUP** contains then *ethnonyms* both in the singular and in the plural.
-* *Demonyms*, this is, terms used to denote the natives or inhabitants of a particular city, city-state, or sub-division of a city-state like the *demos* or *tribes* are also labeled as **GROUP**.  
-* Other types of social groups, like philosophical schools, religious organizations like *thiasos*, temple personnel, groups of doctors, and similar are also labeled as **GROUP**.
+* Ethnic groups like Greeks, Egyptians, Persians, etc.  **NORP** contains then *ethnonyms* both in the singular and in the plural.
+* *Demonyms*, this is, terms used to denote the natives or inhabitants of a particular city, city-state, or sub-division of a city-state like the *demos* or *tribes* are also labeled as **NORP**   
+* Other types of social groups, like philosophical schools, religious organizations like *thiasos*, temple personnel, groups of doctors, and similar are also labeled as **NORP** .
 * **<u>Exceptions</u>** are substantivized adjectives in the singular that function as a proper noun like in "the Phoenician". Such cases are labeled as **PERSON** , including the article as in ὁ Φοῖνιξ.
 
 ### GOD
@@ -47,13 +47,13 @@ In contrast to  modern NER corpora, **NEReus** annotates the names of gods and o
 
 The category **LANGUAGE** includes terms that denote both languages and the dialects of any language.
 
-### PLACE
+### GPE and LOC
 
-As **PLACE** are annotated the names of any localities including continents, nations, empires, city-states, mountains, caves, rivers, and so on. However, *ethnonyms* that are used to denote places are annotated as **GROUP** to avoid inconsistencies in the annotation schema. For instance, in a sentence like "The messenger went to the Egyptians",  Egyptians is labeled as **GROUP**.
+As **GPE** are annotated the names of any cities, nations, empires, city-states, while the label **LOC** are used to annotate mountains, caves, bodies of water, and any location that is not a city, nation, or empire. Note that *ethnonyms*, like *Athenians*, that are used to denote places are annotated as **NORP** to avoid inconsistencies in the annotation schema. For instance, in a sentence like "The messenger went to the Egyptians",  Egyptians is labeled as **NORP** and not **GPE**, although 'Egyptians' here denotes Egypt.
 
 ### PERSON
 
-The label person is applied to proper names or substantivized adjectives that denote individuals. For the latter case see above under **GROUP**. 
+The label person is applied to proper names or substantivized adjectives that denote individuals. For the latter case see above under **NORP**. 
 
 
 
