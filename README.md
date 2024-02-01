@@ -4,7 +4,7 @@
 
 
 
-NEReus is an annotated corpus of Named Entities in ancient Greek texts developed to train neural models. At this point, the corpus is an alpha stage and consists only of the annotated version of Herodotus's Histories Book III.  The project aims to provide NER annotations of the following text in ancient Greek:
+NEReus is an annotated corpus of ancient Greek Named Entities developed to train neural models. The corpus is in alpha stage and consists only of the annotated version of Herodotus's Histories Book III.  The project aims to provide NER annotations of the following text in ancient Greek:
 
 - [x] Hesiod's *Theogony*
 
