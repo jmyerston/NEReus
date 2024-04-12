@@ -10,14 +10,14 @@ NEReus is an annotated corpus of ancient Greek Named Entities developed to train
 
 * Herodotus' *Histories*
 
-  - [ ] Book I
+  - [x] Book I
 
   - [ ] Book II
   - [x] Book III
 
 * Diogenes  Laertius' *Lives of Eminent Philosophers*
 
-  * [ ] Book I
+  * [x] Book I
   * [ ] Book III
   * [ ] Book V
   * [ ] Book  VII
