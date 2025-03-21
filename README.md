@@ -6,8 +6,21 @@
 
 NEReus is an annotated corpus of ancient Greek Named Entities and Non Named Entities developed to train neural models. The corpus is in beta stage.  The project aims to provide NER annotations of the following text in ancient Greek:
 
+* Apollodorus' Library
+  - [ ] Book I
+
+* Diogenes  Laertius' *Lives of Eminent Philosophers*
+
+  - [x] Book I
+  - [x] Book II
+  - [x] Book III
+  - [x] Book IV
+
+* Euripides
+  - [x] Bacchae	
+        
 * Hesiod 
-	- [ ] *Theogony*
+  - [ ] *Theogony*
 
 * Herodotus' *Histories*
 
@@ -15,13 +28,10 @@ NEReus is an annotated corpus of ancient Greek Named Entities and Non Named Enti
 
   - [ ] Book II
   - [x] Book III
-* Diogenes  Laertius' *Lives of Eminent Philosophers*
+* Homer
+	* *Iliad*
+   		- [ ] Book II 	
 
-  * [x] Book I
-  * [x] Book III
-  * [x] Book IV
-* Apollodorus' Library
-  * [ ] Book I
 * [ ] Selected passages from Pausanias' *Description of Greece*
 * [ ]  Selected passages from Strabo's *Geography*
 
