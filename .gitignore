@@ -3,3 +3,4 @@ corpus/.DS_Store
 .DS_Store
 /notebooks
 /data
+.claude/settings.local.json
